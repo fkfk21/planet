@@ -1,27 +1,27 @@
 [submodule "lib/FunctionalPlus"]
 	path = lib/FunctionalPlus
-	url = git://github.com/Dobiasd/FunctionalPlus.git
+	url = https://github.com/Dobiasd/FunctionalPlus.git
 [submodule "lib/cpptoml"]
 	path = lib/cpptoml
-	url = git://github.com/skystrife/cpptoml.git
+	url = https://github.com/skystrife/cpptoml.git
 [submodule "lib/hopscotch-map"]
 	path = lib/hopscotch-map
-	url = git://github.com/Tessil/hopscotch-map.git
+	url = https://github.com/Tessil/hopscotch-map.git
 [submodule "lib/robin-map"]
 	path = lib/robin-map
-	url = git://github.com/Tessil/robin-map.git
+	url = https://github.com/Tessil/robin-map.git
 [submodule "lib/sexpresso"]
 	path = lib/sexpresso
-	url = git://github.com/BitPuffin/sexpresso.git
+	url = https://github.com/BitPuffin/sexpresso.git
 [submodule "lib/tinyobjloader"]
 	path = lib/tinyobjloader
-	url = git://github.com/syoyo/tinyobjloader.git
+	url = https://github.com/syoyo/tinyobjloader.git
 [submodule "lib/dbg-macro"]
 	path = lib/dbg-macro
-	url = https://github.com/sharkdp/dbg-macro
+	url = https://github.com/sharkdp/dbg-macro.git
 [submodule "lib/expected"]
 	path = lib/expected
-	url = https://github.com/TartanLlama/expected
+	url = https://github.com/TartanLlama/expected.git
 [submodule "lib/patterns"]
 	path = lib/patterns
-	url = https://github.com/mpark/patterns
+	url = https://github.com/mpark/patterns.git
