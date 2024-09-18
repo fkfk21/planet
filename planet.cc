@@ -264,6 +264,7 @@ int main(int argc, char* argv[]) {
     return EXIT_FAILURE;
   }
 
+  log->info("boundsboundsbounds");
   log->info("Initial state is valid");
   log->info("Running sanity checks on configuration space...");
   conf_space->sanityChecks();

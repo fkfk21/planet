@@ -167,6 +167,8 @@ double CompositeSpace::contDistance(const ob::State* state1, const ob::State* st
   double dist         = 0.0;
   for (unsigned int i = 0; i < componentCount_; ++i) {
     if (i != eqclass_space_idx && i != discrete_space_idx) {
+      cstate1->components[i]->as<ob::CompoundStateSpace>()->distance(cstate1->components[i],
+                                                                    cstate2->components[i]);
       dist +=
       weights_[i] * components_[i]->distance(cstate1->components[i], cstate2->components[i]);
     }

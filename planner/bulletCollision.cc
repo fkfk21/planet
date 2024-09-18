@@ -175,6 +175,7 @@ bool BulletCollisionChecker::isValid(const ob::State* state) const {
   cstate->sg->pose_objects(pose_map);
   node_map.reserve(cstate->sg->get_num_nodes());
   node_map.clear();
+  node_map.resize(cstate->sg->get_num_nodes(), nullptr);
 
   // Map<Str, Transform3r> link_poses;
   const auto pose_helper =
@@ -197,7 +198,6 @@ bool BulletCollisionChecker::isValid(const ob::State* state) const {
         collision_obj->setWorldTransform(trans);
       }
     }
-
     node_map[node->self_idx] = node;
   };
 
